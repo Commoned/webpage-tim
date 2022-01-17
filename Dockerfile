@@ -1,4 +1,4 @@
-FROM rhscl/s2i-core-rhel7:1s
+FROM httpd:latest
 
 COPY ./ /usr/local/apache2/htdocs
 #test2
